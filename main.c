@@ -15,6 +15,7 @@ int main(void) {
         printf("%d added\n", i);
         printf("%d code\n", code);
     }
+
     for (int i = 0; i < 20; i++) {
         int removed = qRemove(queue);
         printf("%d removed\n", removed);

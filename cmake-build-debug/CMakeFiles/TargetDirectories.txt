@@ -1,2 +1,2 @@
-C:/Users/noah-/CLionProjects/C_DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/noah-/CLionProjects/C_DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/noah-/CLionProjects/C-DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/noah-/CLionProjects/C-DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

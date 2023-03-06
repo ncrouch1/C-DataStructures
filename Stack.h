@@ -61,4 +61,25 @@ int pop(Stack* stack) {
     return removing;
 }
 
+int get(Stack* stack, int index) {
+    if (index > stack->top) {
+        printf("Index greater than stack size\n");
+        exit(EXIT_FAILURE);
+    }
+    int* location = stack->head;
+    location += index;
+    return *location;
+}
+
+int set(Stack* stack, int index, int value) {
+    if (index > stack->top) {
+        printf("Index greater than stack size\n");
+        exit(EXIT_FAILURE);
+    }
+    int* location = stack->head;
+    location += index;
+    *location = value;
+    return value;
+}
+
 #endif //C_DATASTRUCTURES_STACK_H
